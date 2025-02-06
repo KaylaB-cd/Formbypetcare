@@ -1,0 +1,79 @@
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding-left: 1rem;
+    color: gray;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: #818437;
+}
+
+h2 {
+    font-family: "Rum Raisin";
+    font-size: 60px;
+    font-weight: bold;
+    color: #37b0b9;
+}
+
+
+header {
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+header img {
+    height: 3rem;
+    padding: 0 2% 0 1.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bar {
+    color: #01161E;
+}
+
+.title-bar span {
+    padding: 0;
+    font-weight: bold;
+    color: #8A97A8;
+}
+
+nav {
+    padding-right: 3%;
+    align-self: center;
+    display: flex;
+}
+
+.desktop {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.side-text {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.landing-box img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    margin: 2rem 2.5rem 2rem 1.5rem;
+    flex-shrink: 0;
+}
