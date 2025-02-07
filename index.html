@@ -11,32 +11,174 @@
 </head>
 <body>
     <header>
-    <div class="logo">
-        <img src="./Resources/CSS/FPC no background.png" alt="Formby Pet Care logo">
-    </div>
-    <nav class="desktop">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact Us</a>
-    </nav>
+        <div class="logo">
+            <img src="./Resources/CSS/FPC no background.png" alt="Formby Pet Care logo">
+            <h3 class="title-bar">FORMBY<span>PET CARE</span></h3>
+        </div>
+        <nav class="desktop">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <nav class="mobile">
+            <img src="" alt="">
+            <a href="#"><img src="" alt="Campus programs"></a>
+            <a href="#"><img src="" alt="Online programms"></a>
+            <a href="#"><img src="" alt="Login"></a>
+        </nav>
     </header>
-
-    <!--main section-->
-
     <main>
         <section class="landing-box">
             <img src="./Resources/CSS/Dogsandcats.png" alt="Dogs and cat">
             <div class="side-text">
                 <h1>All your pet needs</h1>
-                <h2>First Class Care for your best friend</h2>
-                <div class="bowl">
-                    <img src="./Resources/CSS/Dog bowl.png" alt="">
-                </div>
+                <h3>First class care for your best friend</h3>
+                <a href="#" class="start">Start here</a>
             </div>
-
         </section>
 
+        <!--Campus-->
+
+        <section class="information">
+            <div class="multi-container">
+                <div class="main-pic-box">
+                    <img src="./Resources/Images/information-main.jpg" alt="Student enjoying book outside">
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p>Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo
+                    lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
+                    consequat ex. Etiam eget magna laoreet efficitur dolo consequat,
+                    tristique ligula.</p>
+                    <h5>Emmanuel, Sr Strategist at Hiring.com</h5>
+                </div>
+                <div class="stacked-content-box">
+                    <div class="content-box">
+                        <img id="pc-pic" src="./Resources/Images/information-orientation.jpg" alt="Bird's eye view of orientaton" title="">
+                        <img id="mobile-pic" src="./Resources/Images/information-orientation-mobile.jpg" alt="Bird's eye view of orientation">
+                        <div class="side-text">
+                            <h3>Orientation date</h3>
+                            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <img id="pc-pic" src="./Resources/Images/information-campus.jpg" alt="indoors look at common area">
+                        <img id="mobile-pic" src="./Resources/Images/information-campus-mobile.jpg" alt="indoors look at common area">
+                        <div class="side-text">
+                            <h3>Our campus</h3>
+                            <p>find a campus near you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <img id="pc-pic" src="./Resources/Images/information-guest-lecture.jpg" alt="Oliver Sacks">
+                        <img id="mobile-pic" src="./Resources/Images/information-guest-lecture-mobile.jpg" alt="Oliver Sacks">
+                        <div class="side-text">
+                            <h3>Our guest lecture</h3>
+                            <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Classes section-->
+
+        <section class="courses">
+            <h2>Start learning</h2>
+            <div class="course-container">
+                <div class="course-box">
+                    <img src="./Resources/Images/course-software.jpg" alt="Desk with monitors">
+                    <div class="course-text">
+                        <h3>Software Engineering</h3>
+                        <p>COURSES</p>
+                        <p>Web Development, Mobile Development, IoT, APIs</p>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <img src="./Resources/Images/course-computer-art.jpg" alt="Hand holding mobile phone">
+                    <div class="course-text">
+                        <h3>Computer Art</h3>
+                        <p>COURSES</p> 
+                        <p>Imaging & amp; Design, Web Design, Motion Graphics & amp; Visual Effects, Computer Animation</p>
+                    </div> 
+                </div>
+                <div class="course-box">
+                    <img src="./Resources/Images/course-design.jpg" alt="Person holding advanced camera">
+                    <div class="course-text">
+                        <h3>Design</h3>
+                        <p>COURSES</p>
+                        <p>User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <img src="./Resources/Images/course-data.jpg" alt="Laptop open with charts">
+                    <div class="course-text">
+                        <h3>Data</h3>
+                        <p>COURSES</p>
+                        <p>Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </div>
+                <div class="course-box">
+                    <img src="./Resources/Images/course-business.jpg" alt="Chessboard with chess pieces">
+                    <div class="course-text">
+                        <h3>Business</h3>
+                        <p>COURSES</p>
+                        <p>Product Development, Business Development, Startup</p>                         
+                    </div>
+                </div>
+                <div class="course-box">
+                    <img src="./Resources/Images/course-marketing.jpg" alt="Person using smart watch">
+                    <div class="course-text">
+                        <h3>Marketing</h3>
+                        <p>COURSES</p>
+                        <p>Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!--Thesis section-->
+
+    <section class="thesis">
+        <h2>Thesis exhibits</h2>
+        <div class="multi-container">
+            <div class="main-pic-box">
+                <video src="./Resources/Video/thesis.mp4" autoplay muted loop alt="Shadows on building as time passes"></video>
+                <h3>Reimagine Urban</h3>
+                <p>Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
+consequat ex. Etiam eget magna laoreet efficitur dolo consequat,tristique ligula.</p>
+            </div>
+            <div class="stacked-content-box">
+                <div class="content-box">
+                    <img src="./Resources/Images/thesis-fisma.jpg" alt="Planning with highlighter">
+                    <div class="side-text">
+                        <h3>FISMA: Design and Security</h3>
+                        <p>Designer showcase of new prototype project</p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <img src="./Resources/Images/thesis-now-and-then.jpg" alt="City skyline style">
+                    <div class="side-text">
+                        <h3>Now and Then</h3>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--Footer section-->
+
+<footer>
+    <h5>© 2016 Colmar Academy. All rights reserved</h5>
+    <nav class="legal">
+        <span>Terms</span>
+        <span>Privacy</span>
+    </nav>
+</footer>    
 </body>
 </html>
