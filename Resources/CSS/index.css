@@ -125,7 +125,7 @@ nav {
     display: inline-block;
     vertical-align: middle;
     width: 15%;
-    height: 350px;
+    height: 400px;
     margin: 2rem 2.5rem 2rem 1.5rem;
     flex-shrink: 0;
 }
@@ -231,6 +231,7 @@ nav {
 
 .thesis .main-pic-box {
     padding: 1rem 1rem 1.5rem 1.5rem;
+    width: 80%;
 }
 
 /*Courses section*/
@@ -291,6 +292,27 @@ nav {
 .course-text {
     padding: 1rem 0 0 1rem;
     margin: 1.5rem auto;
+}
+
+.thesis h2 {
+    font-family: "Rum Raisin";
+    font-size: 64px;
+    color: #278f72;
+}
+
+.thesis {
+    background-color: #d8ede0;
+}
+
+.thesis p {
+    font-family: "Rum Raisin";
+    font-size: 32px;
+    color: #01161E;
+
+}
+.aboutpic {
+    border: 20px solid #278f72;
+    border-radius: 10%;
 }
 
 /*Footer Section*/
