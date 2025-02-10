@@ -353,6 +353,35 @@ footer .aboutpic {
     margin-left: 20px;
 }
 
+/*services page*/
+
+.petcare {
+    background-color: #EEF9ED;
+    height: 300px;
+    margin-top: 2rem;
+
+}
+
+
+.petcare h2 {
+    font-family:"Rum Raisin";
+    font-size: 64px;
+    color: #278f72;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.petcare h4 {
+    text-align: center;
+}
+
+.petcare h2 + h4 {
+    margin-top: -20px;
+}
+
+
+
 
 /* Tablet settings for smoother transition*/
 
