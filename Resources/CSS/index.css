@@ -21,7 +21,7 @@ section {
 }
 
 a {
-    font-family: karla;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding-left: 1rem;
     color: #01161E;
@@ -29,21 +29,21 @@ a {
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.1;
 }
 
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
     padding: 2rem 0;
 }
 
 h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-size: 1.4rem;
     line-height: 1.2;
     font-weight: bold;
@@ -52,8 +52,6 @@ h3 {
 h5, footer span {
     font-size: 0.8rem;
     color: #01161E;
-    font-family: Karla;
-    font-size: 16px;
 }
 
 p {
@@ -69,9 +67,6 @@ header {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top: 0;
-    z-index: 10;
-    font-family: "Karla";
 }
 
 header img {
@@ -83,7 +78,6 @@ header img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: karla;
 }
 
 .title-bar {
@@ -114,43 +108,37 @@ nav {
 
 /*start banner*/
 
-.landing-box {
-    background-color: #DEEBC6;
-    position: absolute;
-    top: -10px;
-}
-
 .side-text {
-    display: inline-flex;
-    flex-flow: column;
-    justify-content: space-between;
-    vertical-align: middle;
-    margin-left: 300px;
+    display: inline-flex; 
+    flex-flow: column; 
+    justify-content: space-between; 
+    vertical-align: middle; 
+    margin-left: 300px; 
 }
 
 .landing-box img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 15%;
-    height: 400px;
-    margin: 0 2.5rem 2rem 1.5rem;
-    flex-shrink: 0;
+    display: inline-block; 
+    vertical-align: middle; 
+    width: 15%; 
+    height: 400px; 
+    margin: 0 2.5rem 2rem 1.5rem; 
+    flex-shrink: 0; 
 }
 
-.landing-box h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
-    text-align: center;
-    color: #818437;
-}
+.landing-box h1 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 32px; 
+    text-align: center; 
+    color: #818437; 
+} 
 
-.landing-box h3 {
-    margin: 1rem 0;
-    font-family: "Rum Raisin";
-    font-size: 64px;
-    text-align: center;
-    color: #37B0B9;
-}
+.landing-box h3 { 
+    margin: 1rem 0; 
+    font-family: "Rum Raisin"; 
+    font-size: 64px; 
+    text-align: center; 
+    color: #37B0B9; 
+} 
 
 .landing-box .side-text {
     width: 40%;
@@ -192,19 +180,6 @@ nav {
     flex-wrap: nowrap;
 }
 
-.main-pic-box {
-    width: 60%;
-    padding: 2rem 1.5rem;
-}
-
-.main-pic-box img, video {
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.main-pic-box h2 {
-    padding: 0 0 1.5rem 0;
-}
 
 #mobile-pic {
     display: none;
@@ -236,264 +211,241 @@ nav {
     padding: 0;
 }
 
-.thesis .main-pic-box {
-    padding: 1rem 1rem 1.5rem 1.5rem;
-    width: 80%;
-}
 
 /*Courses section*/
 
-.courses {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-}
-
 .courses h2 {
-    font-family: "Rum Raisin";
-    font-size: 54px;
-    color: #818437;
-}
-
-.courses h3 {
-    font-family: "Rum Raisin";
-    font-size: 48px;
-    color: #818437;
+    font-family: "Rum Raisin"; 
+    font-size: 54px; 
+    color: #818437; 
     text-align: center;
-}
-
-.courses .prices {
-    font-family: "Rum Raisin";
-    font-size: 48px;
-    color: #818437;
-    text-align: center; 
 }
 
 .course-container {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
+    width: 90%; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 2rem; 
+    margin-top: 10px; 
 }
 
 .course-box {
-    width: 30%;
-    height: 1000px;
-    margin: 0 0.5rem 1rem 0.5rem;
-    background-color: #ADBED3;
-    border-radius: 10%;
-}
+        width: 30%;     
+        height: 950px;     
+        margin: 0 0.5rem 1rem 0.5rem;     
+        background-color: #ADBED3;    
+        border-radius: 10%;         
+    } 
 
-.courses h2, .thesis h2 {
+    .course-box img { 
+        width: 90%;     
+        height: 650px;     
+        margin-left: 15px;     
+    } 
+
+    .course-box h3 {
+        text-align: center;
+        font-family: "Rum Raisin";
+        color: #818437;
+    }
+
+    .course-text p {
+        text-align: center;
+        font-family: "Rum Raisin";
+        font-size: 54px;
+
+    }
+/*About Section*/
+
+.about {
     text-align: center;
+    margin-right: 100px;
+    width: 100%;
+    background-color: #39c798;
 }
 
-.course-box img {
-    width: 90%;
-    height: 650px;
-    margin-left: 15px;
-}
-
-.course-text {
-    padding: 1rem 0 0 1rem;
-    margin: 1.5rem auto;
-}
-
-.thesis h2 {
-    font-family: "Rum Raisin";
-    font-size: 64px;
-    color: #278f72;
-}
-
-.thesis {
-    background-color: #d8ede0;
-}
-
-.thesis p {
+.about h2 {
     font-family: "Rum Raisin";
     font-size: 32px;
-    color: #01161E;
-
-}
-.aboutpic {
-    border: 20px solid #278f72;
-    border-radius: 10%;
-}
-
-/*Footer Section*/
-
-footer {
-    background-color: #F9E4BD;
-    display: flex;
-    justify-content: space-between;
-    position: relative; /*handle fixed menu bar*/
-    top: 0;
-    width: 100%;
-}
-
-footer h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    padding: 1rem 1.5rem;
-    margin-bottom: 1.5rem;   
-}
-
-footer nav {
-    align-self: auto;
-    padding-top: 1rem;
-}
-
-footer span {
-    padding-left: 1rem;
-}
-
-footer .aboutpic {
-    width: 150px;
-    height: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-/*services page*/
-
-.petcare {
-    background-color: #EEF9ED;
-    height: 300px;
-    margin-top: 2rem;
-
-}
-
-.petcare h2 {
-    font-family:"Rum Raisin";
-    font-size: 64px;
-    color: #278f72;
-    text-align: center;
-    padding-top: 50px;
-
-}
-
-.petcare h4 {
     text-align: center;
 }
 
-.petcare h2 + h4 {
-    margin-top: -20px;
+.main-pic-box {
+    font-family: "Rum Raisin";
+    width: 1500px;
+    font-size: 20px;
 }
 
-/*price boxes*/
+.divide {
+    background-color: lightgray;
+    height: 100px;
+    justify-content: space-around;
+}
 
-.courses {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
+.paws {
+    height: 80px;
+    justify-content: space-around;
     align-items: center;
 }
 
-.courses h2 {
-    font-family: "Rum Raisin";
-    font-size: 54px;
-    color: #818437;
-}
 
-.courses h3 {
-    font-family: "Rum Raisin";
-    font-size: 48px;
-    color: #818437;
-    text-align: center;
-}
+/*Footer Section*/
 
-.courses .prices {
-    font-family: "Rum Raisin";
-    font-size: 48px;
-    color: #818437;
+footer { 
+    background-color: #F9E4BD; 
+    display: flex; 
+    justify-content: space-between; 
+    position: absolute; /*handle fixed menu bar*/ 
+    width: 100%; 
+    height: 300px;
+    margin-top: 30px;
+}  
+
+footer h5 { 
+    font-family: Arial, Helvetica, sans-serif; 
+    display: grid; 
+    padding: 1rem 1.5rem; 
+    margin-bottom: 1.5rem;  
+}  
+
+footer nav { 
+    align-self: auto;
+    padding-top: 1rem; 
+}  
+
+footer span { 
+    padding-left: 1rem; 
+}  
+
+footer .aboutpic { 
+    width: 150px; 
+    height: 150px; 
+    margin-top: 20px; 
+    margin-left: 20px; 
+    border: 5px solid #39c798;
+    border-radius: 15%;
+} 
+
+ /*services page*/  
+
+.petcare { 
+    background-color: #EEF9ED; 
+    height: 300px; 
+    margin-top: 2rem;  
+
+}  
+
+.petcare h2 { 
+    font-family:"Rum Raisin"; 
+    font-size: 64px; 
+    color: #278f72; 
     text-align: center; 
-}
+    padding-top: 50px;  
+}  
 
-.price-container {
+.petcare h4 { 
+    text-align: center; 
+}  
+
+.petcare h2 + h4 { 
+    margin-top: -20px; 
+}  
+
+/*price boxes*/  
+
+
+.price-container { 
     width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
-    padding-top: 5rem;
-    
-}
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 2rem; 
+    padding-top: 5rem;      
 
-.price-box {
-    width: 30%;
-    height: 800px;
-    border: #FF7954 solid 3px;
-    margin: 0 0.5rem 1rem 0.5rem;
-    background-color: #F9E4BD;
-    border-radius: 2%;
-}
+} 
+.price-box {  
+    width: auto;  
+    height: 800px; 
+    border: #FF7954 solid 3px;  
+    margin: 0 0.5rem 1rem 0.5rem; 
+    background-color: #F9E4BD;  
+    border-radius: 2%;  
+}    
 
-.costs-heading {
-    background-color: tan;
-    margin-top: 0;
-    padding-top: 0;
-    height: 60px;
-    vertical-align: middle;
-    text-align: center;
-}
+.costs-heading {  
+    display: flex;  
+    background-color: tan;  
+    height: 60px;  
+    vertical-align: top;  
+    text-align: center;  
+    align-items: normal;
+    padding-left: 120px;  
+    padding-bottom: 50px;  
+}   
 
-.courses h2, .thesis h2 {
-    text-align: center;
-}
+.costs-heading h3 {  
+    text-align: auto;  
+    justify-content: center;  
+}   
 
-.price-box img {
-    width: 90%;
-    height: 650px;
-    margin-left: 15px;
-}
+.price-text { 
+    padding: 1rem 0 0 1rem;  
+    margin: 1.5rem auto;  
+}   
 
-.price-text {
-    padding: 1rem 0 0 1rem;
-    margin: 1.5rem auto;
-}
+ .price-box h3 {  
+    font-family: "Rum Raisin"; 
+    text-align: center;  
+    vertical-align: auto;  
+    padding: 10px;  
+    font-size: 32px; 
+}   
 
-.price-box h3 {
-    font-family: "Rum Raisin";
-    text-align: center;
-    vertical-align: auto;
-    padding: 10px;
-    font-size: 24px;
-}
+table {  
+    margin: 0 auto;  
+    justify-content: center;  
+}   
 
-table {
-    margin: 0 auto;
-}
-
-.costs {
-    border: solid gray 5px;
-    font-family: "Rum Raisin";
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    margin-top: 5rem;
-    padding: 10px;
-    width: 80%;
-}
-
-.reasons {
-    border: solid gray 5px;
-    font-family: "Rum Raisin";
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
+ .costs {  
+    border: solid gray 5px;  
+    font-family: "Rum Raisin";  
+    font-size: 20px; 
+    font-weight: bold;  
+    text-align: center;  
+    justify-content: center;  
     margin-top: 5rem;  
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    padding: 10px;  
+    width: 80%;  
+}    
 
-.tick {
-    padding: 10px;
-}
+.reasons {  
+    border: solid gray 5px;  
+    font-family: "Rum Raisin";  
+    font-size: 20px;  
+    font-weight: bold; 
+    text-align: center;  
+    justify-content: center;  
+    margin-top: 5rem; 
+    margin-left: 10px;  
+    margin-right: 10px;  
+}    
 
+#pet {  
+    position: relative;  
+    left: 15%;  
+
+}   
+
+ 
+
+.tick {  
+
+    padding: 10px;  
+
+}  
+
+ 
 
 /* Tablet settings for smoother transition*/
 
